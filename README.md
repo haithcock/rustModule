@@ -8,7 +8,7 @@ Purpose:
 -To strengthen my understanding of Rust ownership, borrowing, and modular design as a software engineer.
 
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/5bqmXe3AYuU)
 
 # Development Environment
 Tools Used:
