@@ -1,6 +1,5 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
 
 Description of the software:
 -A modular Rust TCP port scanner that scans a port range and optionally grabs simple banners.
@@ -8,7 +7,6 @@ Description of the software:
 Purpose:
 -To strengthen my understanding of Rust ownership, borrowing, and modular design as a software engineer.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 
 [Software Demo Video](http://youtube.link.goes.here)
 
