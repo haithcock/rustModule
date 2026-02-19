@@ -6,16 +6,15 @@ use scanner::Scanner;
 
 fn main() {
 
-    let host = "127.0.0.1";      // Immutable variables
+    let host = "127.0.0.1";     // Immutable variables
     let start_port: u16 = 1;
-    let end_port: u16 = 1024;
-
+    let end_port: u16 = 10240;
     let scanner = Scanner::new(300, 128); // Struct + impl (OO technique)
 
     println!("Scanning {host} ports {start_port}-{end_port}...\n");
 
 
-    let findings = scanner.scan_range(host, start_port, end_port); // Vec returned (data structure)
+    let findings = scanner.scan_range(host, start_port, end_port);// Vec returned (data structure)
 
 
     if findings.is_empty() {     // Conditional
